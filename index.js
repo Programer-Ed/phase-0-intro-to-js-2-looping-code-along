@@ -8,10 +8,10 @@ function writeCards(names,event){
     return loopMessages;
 }
 
-function countDown(){
-    let count=11;
-    while(count>0){
-        console.log(`${count}`)
+function countDown(count){
+    //let count=11;
+    while(count>=0){
+        console.log(count)
         count--
     }
 }
